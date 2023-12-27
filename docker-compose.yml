@@ -7,11 +7,11 @@ services:
       - 81:80
     deploy:
       replicas: 3
-   googlepay:
-     image: naresh05/googlepay:latest
-     ports:
-       - 82:80
-      deploy:
-        replicas: 3
-      
+  googlepay:
+    image: naresh05/googlepay:latest
+    ports:
+      - 82:80
+    deploy:
+      replicas: 3
+
  
