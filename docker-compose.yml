@@ -1,13 +1,13 @@
 ---
 version: "3.8"
 services:
-  jenkins:
+  phonepay:
     image: naresh05/phonepay:latest
     ports:
       - 81:80
     deploy:
       replicas: 3
-   maven:
+   googlepay:
      image: naresh05/googlepay:latest
      ports:
        - 82:80
