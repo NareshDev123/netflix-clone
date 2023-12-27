@@ -4,7 +4,7 @@ services:
   movies:
     image: naresh05/netflix:latest
     ports:
-      - 8080:80
+      - 91:80
     deploy:
       replicas: 3
  
