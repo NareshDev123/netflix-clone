@@ -2,26 +2,9 @@
 version: "3.8"
 services:
   movies:
-    image: naresh05/moviespayy:latest
+    image: naresh05/netflix:latest
     ports:
-      - 811:80
+      - 8080:80
     deploy:
       replicas: 3
-  train:
-    image: naresh05/trainspayy:latest
-    ports:
-      - 82:80
-    deploy:
-      replicas: 3
-  recharge:
-    image: naresh05/dthpayy:latest
-    ports:
-      - 83:80
-    deploy:
-      replicas: 3
-  dth:
-    image: naresh05/rechargepayy:latest
-    ports:
-      - 84:80
-    deploy:
-      replicas: 3
+ 
